@@ -70,9 +70,15 @@ body
     background-color: #ff0066;
 }
 
+#pos_bouton
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Fin formulaire humeur */
 
-/* Menu en haut */
+/* Menu en haut, il faudra virer les div inutiles quand on aura le temps */
 
 #logo 
 {
@@ -93,7 +99,7 @@ body
     border-left: 1px solid;
 }
 
-#date 
+#divinutile 
 {
 	z-index: -1;
     width: 20%;
@@ -105,19 +111,19 @@ body
     border-bottom: 2px solid #ff0066
 }
 
-#titre 
+#divinutile2 
 {
 	z-index: -1;
     width: 30%;
     height: 70px;
-    text-align: center;
+    text-align: right;
     position: absolute;	
     top: 0;
     left: 40%;
     border-bottom: 2px solid #ff0066
 }
 
-#deconnexion 
+#divinutile1 
 {
 	z-index: -1;
     width: 10%;
@@ -135,7 +141,7 @@ body
     text-align: center;
 }
 
-#modifier 
+#date 
 {
 	z-index: -1;
     width: 10%;
@@ -173,6 +179,7 @@ body
     top: 0;
     right: 0;
     background-color: #ff0066;
+    color: white;
 }
 
 /* Fin menu en haut */
@@ -218,3 +225,113 @@ body
 {
     border-bottom: 2px solid #ff0066;
 }
+
+/*Carte et position des pastille - Julien et Lukas*/
+
+#carte {
+    position: relative;
+    top: 70px;
+    right: 100px;
+    text-align: center;
+    z-index: -1;
+/*    background-image: url("map.jpg");
+    background-repeat: no-repeat;*/
+    text-align: center;
+}
+
+#ico {
+    width: 40px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-gap: 1px;
+    grid-auto-rows: 70px;
+    grid-template-areas: "a b c d e f" "g h i j k l" "m n o p q r" "s t u v w x" "aa ab ac ad ae af" "ag ah ai aj ak al";
+}
+
+.item1 {
+    grid-area: a;
+    padding-right: 25px;
+}
+
+.item2 {
+    grid-area: b;
+    padding-top: 10px;
+}
+
+.item3 {
+    grid-area: d;
+    padding-top: 10px;
+}
+
+.item4 {
+    grid-area: g;
+    padding-right: 40px;
+}
+
+
+.item5 {
+    grid-area: i;
+    padding-top: 10px;
+}
+
+.item6 {
+    grid-area: j;
+    padding-left: 25px;
+}
+
+.item7 {
+    grid-area: k;
+    padding-left: 35px;
+}
+
+.item8 {
+    grid-area: n;
+    padding-bottom: 20px;
+}
+
+
+.item9 {
+    grid-area: r;
+    padding-right: 25px;
+}
+
+.item10 {
+    grid-area: s;
+    padding-left: 25px;
+}
+
+.item11 {
+    grid-area: t;
+    padding-left: 30px;
+}
+
+
+.item12 {
+    grid-area: v;
+    padding-left: 25px;
+}
+
+.item13 {
+    grid-area: w;
+    padding-left: 25px;
+}
+
+.item14 {
+    grid-area: ac;
+    padding-left: 25px;
+}
+
+.item15 {
+    grid-area: ai;
+    padding-left: 35px;
+}
+
+
+
+/*Carte et position des pastille*/
