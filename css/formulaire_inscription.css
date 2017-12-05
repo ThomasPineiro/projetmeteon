@@ -7,8 +7,17 @@ font-family: 'Ubuntu', sans-serif;
 text-align: center;
 background: white;
 color: #ff0066;
+height: 100%;
 }
 
+body
+{
+	height: 100%;
+}
+
+head{
+	height: 0%;
+}
 /* taille des champs */
 
 input 
@@ -29,17 +38,13 @@ width: 250px;
 	color: white;
 }
 
-/* test coloris*/
-/* table{
+/* A rendre plus propre quand on aura le temps (faire disparaitre les bandes blanches)*/
+table{
 	width: 100%;
+	height: 100%
 }
-
-
-#gauche{
-	width:33% ;
-	background-color: blue;
+.colonnegrise
+{
+	width: 200px;
+	background-color: #dfe0e2;
 }
-#droite{
-	width: 33%;
-	background-color: blue;
-} */

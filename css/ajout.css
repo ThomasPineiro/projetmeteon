@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html
+{
+	font-family: 'Ubuntu', sans-serif;
+}
+
 h1
 {
 	text-align: center;
@@ -14,10 +21,8 @@ h1
 .boutton
 {
 	background:#ff0066;
-	border:none;
-	border-radius: 8px;
-	color: #FFF;
-	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-align: center;
 	margin-bottom: 21px;
 }
 
@@ -45,10 +50,9 @@ select
 	display: inline-block;
 	justify-content: center;
     width: 400px;
-    border: 1px solid black;
     border-radius: 1em;	
     background-color: white;
-    font-family: 'Ubuntu', sans-serif;
     margin-top: 140px;
     margin-left: 404px;
+    background-color: #dfe0e2;
 }
